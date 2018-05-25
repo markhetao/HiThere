@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<style>
+			input{
+				outline: 0;
+			}
+			input[type=number] {  
+    			-moz-appearance:textfield;  
+			}  
+			input[type=number]::-webkit-inner-spin-button,  
+			input[type=number]::-webkit-outer-spin-button {  
+			    -webkit-appearance: none;  
+			    margin: 0;  
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap-top">
+			<div class="container">
+				<div class="logo-box"><a class="logo" href="index.html"><img src="../img/hi-there.png" /></a></div>
+				<div class="link-box">
+					<span>
+						<a href="../index.html">首页</a>
+					</span>
+					<span>
+						<a href="list.html">HI THERE</a>
+					</span>
+					<span>
+						<a class="now" href="upFile.html">上传我的图片</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="main-box">
+			<div class="container">
+				<div class="up-box">
+					<div class="up-form">
+						<div class="upimg-box">
+							<div class="upImg">
+								<input type="file" class="file" name="file" id="file" />
+								<div class="upshow">+</div>
+								<img class="sucimg" id="sucimg" src="" style="width:200px;height:200px;" />
+							</div>
+							<p class="tip">点击上传图片</p>
+						</div>
+						<div class="inp-txt">
+							<p class="t">留下你的一段话</p>
+							<input type="text" id="savetxt" class="savetxt" />
+						</div>
+						<div class="inp-txt">
+							<p class="t">查看价格</p>
+							<div class="setinp"><input type="number" id="setprice" class="setprice" /><i class="ltxt">个 </i></div>
+						</div>
+						<div class="put-box">
+							<button id="subInfo">提交</button>
+						</div>
+						<p style="width:100%;margin-top:30px;text-align:center;">拿出你的珍藏照片，让nas如流水涌入钱包</p>
+						<p style="line-height:42px;text-align: center;padding-bottom:60px;">如果无法提交，请安装chrome谷歌浏览器<a style="color:#1197FF;border-bottom:1px solid #1197FF;" href="https://github.com/ChengOrangeJu/WebExtensionWallet">钱包插件</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p style="line-height:42px;text-align: center;padding-bottom:60px;">Hi There(珍品即财富)  &copy;2018 需要帮助，请联系我们markhetao@sina.com</p>
+		<script src="../js/jquery-2.1.1.min.js"></script>
+		<script src="../js/close-pixelate.js"></script>
+		<script src="../js/nebPay.js"></script>
+		<script src="../js/nebulas.js"></script>
+		<script src="../js/pub.js"></script>
+		<script src="../js/upCon.js"></script>
+		<script src="../js/layer/layer.js"></script>
+		<script>
+			
+		</script>
+	</body>
+</html>

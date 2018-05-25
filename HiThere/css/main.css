@@ -1,0 +1,406 @@
+.pagebox{
+	width: 100%;
+	height: 42px;
+	line-height:28px;
+	text-align: right;
+	padding-right:30px;
+}
+.pagebox button{
+	background:#1E9FFF;
+	border-radius:28px;
+	color: #fff;
+	display:inline-block;
+	width:60px;
+	height:28px;
+	text-align:center;
+}
+.pagebox i{
+	display:inline-block;
+	width:60px;
+	height:28px;
+	color: #666;
+	text-align: center;
+	margin:0 10px;
+	border:1px solid #d4d4d4;
+}
+.Mask{
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height:100%;
+	background: rgba(0,0,0,.5);
+	z-index:999;
+	display: none;
+}
+.Mask.show{
+	display: block;
+}
+.Mask .closebtn{
+	position: absolute;
+	right:0px;
+	top:0px;
+	width:40px;
+	height:40px;
+	background: #999;
+	z-index:99;
+	border-radius:40px;
+}
+.Mask .layout{
+	padding:30px;
+	position: relative;
+	width:680px;
+	height:800px;
+	background: #fff;
+	margin:50px auto 0;
+}
+.laybody::-webkit-scrollbar {/*滚动条整体样式*/
+    width:6px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.laybody::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #888;
+}
+.laybody::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+.laybody{
+	width: 100%;
+	height:100%;
+	padding:30px;
+	overflow:auto;
+}
+.laybody img{
+	max-width:100%;
+}
+/*.Mask .layout .info p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}*/
+.Mask .layout .info{
+	width:100%;
+	overflow: hidden;
+	padding:0 20px;
+}
+.Mask .layout .info .t{
+	line-height:20px;
+	margin:10px 0;
+	font-size: 14px;
+	color:#333;
+}
+.Mask .layout .price{
+	line-height:30px;
+	font-size: 12px;
+	color: #666;
+}
+.Mask .layout .addr{
+	line-height:20px;
+	color: #999;
+	text-align: right;
+}
+.logo-box{
+	width: 100%;
+	margin:10px auto 0;
+	overflow: hidden;
+	text-align: center;
+}
+.logo-box .logo{
+	display: inline-block;
+	width:180px;
+}
+.wrap-top .link-box{
+	float: left;
+}
+.wrap-top .link-box a{
+	display:inline-block;
+	padding:0 10px;
+	height:20px;
+	width:120px;
+	line-height:20px;
+	margin-right:10px;
+	border-left:4px solid transparent;
+}
+.wrap-top .link-box a.now{
+	color: #333;
+	border-left:4px solid #A62B1B;
+}
+.wrap-top .link-box a:hover{
+	color:#000;
+	border-left:4px solid #A62B1B;
+}
+.start{
+	position: relative;
+	height:800px;
+	background: url(../img/lbg.png) no-repeat left center;
+	background-size:auto 700px;
+}
+.start .txt-tit{
+	position: absolute;
+	right: 0;
+	top:166px;
+	width: 650px;
+}
+.start .txt-tit h2{
+	font-weight:bold;
+	font-size:34px;
+}
+.start .txt-tit span{
+	letter-spacing:8px;
+	line-height: 32px;
+}
+.txt-box{
+	position: absolute;
+	top:294px;
+	right: 0;
+	width: 500px;
+	text-align: right;
+}
+.txt-box p{
+	line-height:20px;
+}
+.txt-box .btn{
+	text-align: left;
+	text-indent:2.6em;
+	letter-spacing:3px;
+	color: #fff;
+	line-height:50px;
+	display: inline-block;
+	width:240px;
+	height:50px;
+	background:url(../img/openbtn.png) no-repeat;
+	background-size:100% auto;
+}
+.list{
+	margin-top:30px;
+}
+.list-box ul{
+	width:100%;
+	overflow: hidden;
+	padding:10px 20px;
+}
+.list-box ul li{
+	width: 285px;
+	float: left;
+	margin-right:20px;
+	margin-bottom:20px;
+	box-shadow:1px 1px 16px #f9dbdb;
+	-webkit-box-shadow:1px 1px 16px #f9dbdb;
+	cursor: pointer;
+}
+.list-box ul li:nth-child(4n){
+	margin-right:0
+}
+.list-box ul li img{
+	width: 100%;
+	height:100%;
+}
+.list-box ul li .imgbox{
+	width: 100%;
+	height:300px;
+}
+.list-box ul li .info{
+	width: 100%;
+	overflow: hidden;
+	padding:10px;
+}
+.list-box ul li .info p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.list-box ul li .info .t{
+	line-height:28px;
+	height:28px;
+	font-size: 14px;
+	color:#333;
+}
+.list-box ul li .info .price{
+	line-height:30px;
+	height:30px;
+	font-size: 12px;
+	color: #666;
+}
+.list-box .addr{
+	line-height:20px;
+	height:20px;
+	color: #999;
+	text-align: right;
+}
+.up-box{
+	width: 100%;
+	height:800px;
+	margin-top:80px;
+}
+.up-box .up-form{
+	width:500px;
+	overflow:hidden;
+}
+.up-box .up-form .upImg{
+	position:relative;
+	width:200px;
+	height:200px;
+	margin:0 auto;
+}
+.up-box .upImg .file{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	opacity:0;
+	z-index:99;
+}
+.up-box .upImg .upshow{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	font-size:42px;
+	/*font-weight:bold;*/
+	color: #999;
+	border:2px dashed #999;
+	z-index:66;
+	text-align: center;
+	line-height:190px;
+}
+.up-box .upImg .sucimg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	z-index:67;
+	display: none;
+}
+.up-box .upImg .sucimg.show{
+	display: block;
+}
+.up-box .up-form .tip{
+	text-align: center;
+	color: #999;
+	line-height:20px;
+	font-size: 12px;
+	letter-spacing:4px;
+}
+.up-box{
+	background: url(../img/bg.jpg) no-repeat right top;
+	background-size:710px auto;
+}
+.up-form .inp-txt{
+	width: 100%;
+	margin-top: 30px;
+}
+.up-form .inp-txt .t{
+	padding-left:10px;
+	color: #999;
+	line-height:20px;
+	font-size: 12px;
+	letter-spacing:4px;
+}
+.up-form .savetxt{
+	padding-left:10px;
+	width:100%;
+	line-break: 42px;
+	height: 42px;
+	border-radius:42px;
+	border: 1px solid #666;
+}
+.up-form .setinp{
+	width: 180px;
+	height:42px;
+	position:relative;
+}
+.up-form .setinp:after{
+	content: "NAS";
+	position:absolute;
+	right:-40px;
+	top: 0;
+	line-height: 42px;
+	color:#666;
+}
+.up-form .setinp .ltxt{
+	line-height: 42px;
+	position:absolute;
+	right:10px;
+	top:0;
+	color:#666;
+}
+.up-form .setprice{
+	position: absolute;
+	left:0;
+	top:0;
+	padding-left:10px;
+	width:180px;
+	line-break: 42px;
+	height: 42px;
+	border-radius:42px;
+	border: 1px solid #666;
+}
+.up-form .put-box{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.up-form .put-box button{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background:url(../img/radius-btn.png) no-repeat;
+	background-size: 100% 100%;
+	font-size: 16px;
+	color: #fff;
+}
+input{
+	outline: 0;
+}
+.adrr-box{
+	width: 100%;
+	padding:10px 20px;
+	line-height:42px;
+}
+.adrr-box .waddr{
+	padding:0;
+	text-align: center;
+	height:42px;
+	width:340px;
+	border-radius:42px;
+	border: 1px solid #666;
+}
+.adrr-box .t{
+	color: #666;
+}
+.adrr-box .t em{
+	cursor: pointer;
+	color:#ff0000;
+}
+.adrr-box .t em:hover{
+	text-decoration:underline;
+}
+.emptytip{
+	width: 100%;
+	text-align: center;
+	color:#999;
+	line-height: 42px;
+	border-bottom:none;
+	display: none;
+}
+.emptytip.show{
+	display: block;
+}
+.Mask .closebtn{
+	position: absolute;
+	right:0;
+	top:0;
+	display: block;
+	width:30px;
+	height:30px;
+	background: url(../img/close.png) no-repeat center;
+	background-size:16px;
+	cursor: pointer;
+}

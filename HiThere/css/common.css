@@ -1,0 +1,83 @@
+body,html,head,section,h1,h2,h3,h4,h5,h6,hr,p,blockquote,address,dl,dt,dd,ul,ol,li,pre,fieldset,legend,button,input,textarea,form,div,table,footer,th,td,img{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+	font-family:"微软雅黑", "Microsoft YaHei", "华文细黑";
+	font-size: 14px;
+}
+*{
+	box-sizing: border-box;
+}
+ul,ol,li{
+	list-style:none;
+}
+input[type=button],button{
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+input[type=text]{
+	padding-left: 10px;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+a:hover{
+	/*color: #dc0006;*/
+	/*text-decoration: underline;*/
+}
+a.btn:hover{
+	text-decoration: none;
+}
+.btn{
+	text-align: center;
+}
+.wrap{
+	width:100%;
+	overflow: auto;
+	height:100%;
+}
+i,em{
+	font-style: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal
+}
+img  {
+	width: 100%;
+   image-rendering: optimizeQuality;  /* Firefox 3.6+; default behavior is identical, no need to specify */
+   -ms-interpolation-mode: bicubic;   /* Internet Explorer 7.0; default in IE8+ */
+}
+.container{
+	width: 1240px;
+	margin: 0 auto;
+}
+.container:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.mr20{
+	margin-right: 20px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix{zoom: 1;}
